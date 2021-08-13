@@ -16,6 +16,8 @@ This "program suggester" gives the user five survey prompts. Based on their answ
 what language they are most likely to enjoy. Every possible combination is not coded, therefore if a combination is chosen that is not in the program,
 it prompts the user to try again. 
 
+Check out the program [here](https://art-weinstein.github.io/Language-Suggester/).
+
 ## Setup/Installation Requirements
 
 1. [Clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) this repository.
@@ -24,7 +26,7 @@ it prompts the user to try again.
 
 ## Known Bugs
 
-* No bugs known at the moment.
+* No known bugs.
 
 ## License
 
