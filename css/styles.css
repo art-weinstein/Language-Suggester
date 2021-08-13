@@ -1,6 +1,6 @@
 #shadow {
-  font-style: ;
-  text-shadow: 4px 4px 7px aqua, 5px 5px 8px red;
+  font-style: italic;
+  text-shadow: 4px 4px 7px blueviolet, 5px 5px 8px red;
 }
 img {
   max-height: 500px;
@@ -56,34 +56,41 @@ body {
   
 }
 #cTheme{
-  padding-left: 200px;
+  text-align: center;
   display: none;
 }
 #hTheme{
-  padding-left: 200px;
+  text-align: center;
   display: none;
 }
 #pTheme{
-  padding-left: 200px;
+  text-align: center;
   display: none;
 }
 #sTheme{
-  padding-left: 200px;
+  text-align: center;
   display: none;
 }
 #c {
+  text-align: center;
   background: black;
   color: tomato;
+  text-shadow: 4px 4px 7px blueviolet, 5px 5px 8px red; 
   display: none;
 }
 #html {
+  text-align: center;
   color: blueviolet;
+  text-shadow: 4px 4px 7px black, 5px 5px 8px blue; 
   display: none;
 }
 #python {
+  text-align: center;
   color: green;
+  text-shadow: 4px 4px 7px brown, 5px 5px 8px limegreen;
   display: none;
 }
 #savage {
+  text-align: center;
   display: none;
 }
