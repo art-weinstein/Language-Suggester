@@ -7,8 +7,8 @@ $(document).ready(function(){
     const musicChoice = $("#music").val();
     const gameChoice = $("#game").val();
     if (sleepChoice === "Early Bird" && careerChoice === "Engineer" || transportChoice === "Car" && gameChoice === "PC" || musicChoice === "Metal" && careerChoice === "Librarian") {
-      $("#cTheme").show();
-      $("#c").show();
+      $("#cTheme").fadeIn().show();
+      $("#c").fadeIn().show();
       $("#html").hide();
       $("#hTheme").hide();
       $("#python").hide();
@@ -16,8 +16,8 @@ $(document).ready(function(){
       $("#savage").hide();
       $("#sTheme").hide();
     } else if (transportChoice === "Walking" && careerChoice === "Web Design" && musicChoice === "Rock" || musicChoice === "Funk" && gameChoice === "Nintendo Switch" || sleepChoice === "Early Bird" && careerChoice === "Web Design" || musicChoice === "Rock" && gameChoice === "Xbox") {
-      $("#html").show();
-      $("#hTheme").show();
+      $("#html").fadeIn().show();
+      $("#hTheme").fadeIn().show();
       $("#savage").hide();
       $("#sTheme").hide();
       $("#c").hide();
@@ -26,8 +26,8 @@ $(document).ready(function(){
       $("#pTheme").hide();
       $("cTheme").hide();
     } else if (sleepChoice === "Night Owl" && transportChoice === "Motorcycle" && careerChoice === "Cyber Security" && musicChoice === "FUTURE FUNK" && gameChoice === "Gameboy Color" || careerChoice === "Cyber Security" && sleepChoice === "Early Bird" && gameChoice === "PC" || sleepChoice === "Night Owl" && transportChoice === "Bike")  {
-      $("#python").show();
-      $("#pTheme").show();
+      $("#python").fadeIn().show();
+      $("#pTheme").fadeIn().show();
       $("#savage").hide();
       $("#sTheme").hide();
       $("#c").hide();
@@ -35,8 +35,8 @@ $(document).ready(function(){
       $("#html").hide();
       $("#hTheme").hide();
     } else {
-      $("#savage").show();
-      $("#sTheme").show();
+      $("#savage").fadeIn().show();
+      $("#sTheme").fadeIn().show();
       $("#c").hide();
       $("#html").hide();
       $("#hTheme").hide();
@@ -46,3 +46,4 @@ $(document).ready(function(){
     }
   });
 });
+
