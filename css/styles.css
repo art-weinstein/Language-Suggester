@@ -81,7 +81,7 @@ body {
 #html {
   text-align: center;
   color: blueviolet;
-  text-shadow: 4px 4px 7px black, 5px 5px 8px blue; 
+  text-shadow: 4px 4px 7px blue, 5px 5px 8px blue; 
   display: none;
 }
 #python {
