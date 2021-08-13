@@ -1,27 +1,67 @@
 body {
-  background-color: black;
+  background: black;
   color: aqua;
 }
-
+#sleep {
+  font-weight: bolder;
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+  background-color: orange;
+}
+#transport {
+  font-weight: bolder;
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+  background-color: orange;
+}
+#career {
+  font-weight: bolder;
+  width: 150px;
+  height: 40pxx;
+  padding: 5px;
+  background-color: orange;
+}
+#music {
+  font-weight: bolder;
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+  background-color: orange;
+}
+#game {
+  font-weight: bolder;
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+  background-color: orange;
+}
+#press {
+  font-weight: bolder;
+  font-weight: bolder;
+  color: rgb(52, 31, 71);
+  background-color: rgb(161, 57, 19);
+  border: orchid;
+  border-style: groove;
+  margin: 5px;
+  
+}
 #cTheme{
+  padding-left: 200px;
   display: none;
 }
-
 #c {
-  background-color: black;
+  background: black;
   color: tomato;
   display: none;
-
 }
-
 #html {
   display: none;
 }
-
 #python {
   display: none;
 }
-
 #savage {
   display: none;
 }
