@@ -6,31 +6,42 @@ $(document).ready(function(){
     const careerChoice = $("#career").val();
     const musicChoice = $("#music").val();
     const gameChoice = $("#game").val();
-    if (sleepChoice === "Early Bird" && careerChoice === "Engineer") {
+    if (sleepChoice === "Early Bird" && careerChoice === "Engineer" || transportChoice === "Car" && gameChoice === "PC" || musicChoice === "Metal" && careerChoice === "Librarian") {
       $("#cTheme").show();
       $("#c").show();
       $("#html").hide();
+      $("#hTheme").hide();
       $("#python").hide();
+      $("#pTheme").hide();
       $("#savage").hide();
-      //I was messing with order of operations, so for HTML to show, the user has to choose either walking, web desgin and rock, OR at least funk and nintendo switch. Choosing both options at the same time also works. 
-    } else if (transportChoice === "Walking" && careerChoice === "Web Design" && musicChoice === "Rock" || musicChoice === "Funk" && gameChoice === "Nintendo Switch") {
+      $("#sTheme").hide();
+    } else if (transportChoice === "Walking" && careerChoice === "Web Design" && musicChoice === "Rock" || musicChoice === "Funk" && gameChoice === "Nintendo Switch" || sleepChoice === "Early Bird" && careerChoice === "Web Design" || musicChoice === "Rock" && gameChoice === "Xbox") {
       $("#html").show();
+      $("#hTheme").show();
       $("#savage").hide();
+      $("#sTheme").hide();
       $("#c").hide();
       $("#cTheme").hide();
       $("#python").hide();
+      $("#pTheme").hide();
       $("cTheme").hide();
-    } else if (sleepChoice === "Night Owl" && transportChoice === "Motorcycle" && careerChoice === "Cyber Security" && musicChoice === "FUTURE FUNK" && gameChoice === "Gameboy Color" || careerChoice === "Cyber Security" && sleepChoice === "Early Bird") {
+    } else if (sleepChoice === "Night Owl" && transportChoice === "Motorcycle" && careerChoice === "Cyber Security" && musicChoice === "FUTURE FUNK" && gameChoice === "Gameboy Color" || careerChoice === "Cyber Security" && sleepChoice === "Early Bird" && gameChoice === "PC" || sleepChoice === "Night Owl" && transportChoice === "Bike")  {
       $("#python").show();
+      $("#pTheme").show();
       $("#savage").hide();
+      $("#sTheme").hide();
       $("#c").hide();
       $("#cTheme").hide();
       $("#html").hide();
+      $("#hTheme").hide();
     } else {
       $("#savage").show();
+      $("#sTheme").show();
       $("#c").hide();
       $("#html").hide();
+      $("#hTheme").hide();
       $("#python").hide();
+      $("#pTheme").hide();
       $("#cTheme").hide();
     }
   });
