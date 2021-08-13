@@ -3,11 +3,15 @@ body {
   color: aqua;
 }
 
+#cTheme{
+  display: none;
+}
 
 #c {
   background-color: black;
   color: tomato;
   display: none;
+
 }
 
 #html {

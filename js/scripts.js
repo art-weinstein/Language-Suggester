@@ -7,6 +7,7 @@ $(document).ready(function(){
     const musicChoice = $("#music").val();
     const gameChoice = $("#game").val();
     if (sleepChoice === "Early Bird" && careerChoice === "Engineer") {
+      $("#cTheme").show();
       $("#c").show();
       $("#html").hide();
       $("#python").hide();
@@ -16,21 +17,21 @@ $(document).ready(function(){
       $("#html").show();
       $("#savage").hide();
       $("#c").hide();
+      $("#cTheme").hide();
       $("#python").hide();
+      $("cTheme").hide();
     } else if (sleepChoice === "Night Owl" && transportChoice === "Motorcycle" && careerChoice === "Cyber Security" && musicChoice === "FUTURE FUNK" && gameChoice === "Gameboy Color" || careerChoice === "Cyber Security" && sleepChoice === "Early Bird") {
       $("#python").show();
       $("#savage").hide();
       $("#c").hide();
+      $("#cTheme").hide();
       $("#html").hide();
     } else {
       $("#savage").show();
       $("#c").hide();
       $("#html").hide();
       $("#python").hide();
+      $("#cTheme").hide();
     }
   });
-});
-
-$(document).ready(function(){
-  $("body#c").addClass("grey-background");
 });
