@@ -1,13 +1,12 @@
 body {
-background-color: royalblue;
-color: sienna;
-}
-.cTheme {
-  background-color: silver;
-  color: rgba(177, 14, 14, 0.37);
+  background-color: black;
+  color: aqua;
 }
 
+
 #c {
+  background-color: black;
+  color: tomato;
   display: none;
 }
 
