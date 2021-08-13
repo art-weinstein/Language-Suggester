@@ -25,7 +25,7 @@ $(document).ready(function(){
       $("#python").hide();
       $("#pTheme").hide();
       $("cTheme").hide();
-    } else if (sleepChoice === "Night Owl" && transportChoice === "Motorcycle" && careerChoice === "Cyber Security" && musicChoice === "FUTURE FUNK" && gameChoice === "Gameboy Color" || careerChoice === "Cyber Security" && sleepChoice === "Early Bird" && gameChoice === "PC" || sleepChoice === "Night Owl" && transportChoice === "Bike")  {
+    } else if (sleepChoice === "Night Owl" && transportChoice === "Motorcycle" && careerChoice === "Cyber Security" && musicChoice === "FUTURE FUNK" && gameChoice === "Gameboy Color" || careerChoice === "Cyber Security" && sleepChoice === "Early Bird" && gameChoice === "PC" || sleepChoice === "Night Owl" && transportChoice === "Bike") {
       $("#python").fadeIn().show();
       $("#pTheme").fadeIn().show();
       $("#savage").hide();
